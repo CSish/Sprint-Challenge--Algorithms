@@ -14,9 +14,9 @@ a)  a = 0
 
 ```
 b)  sum = 0
-    for i in range(n):
+    for i in range(n): # O(n)
       j = 1
-      while j < n:
+      while j < n: # 0(n)
         j *= 2
         sum += 1
 ```
